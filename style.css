@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #2C3E50;
+}
+
+.window{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.window-core{
+    background-color: #483d8b;
+    border: 2px solid #50449a;
+    box-shadow: 1px 1px 10px white;
+    width: 500px;
+    height: 600px;
+    position: relative;
+}
+.window-core__intelCore{
+    border: 1px solid #50439a;
+    width: 90%;
+    height: 95%;
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    background: linear-gradient(0deg,#ae167b, #26204a );
+}
+.window-intelcore__background{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #50449a;
+    border-left: 1px solid #7fffd4;
+    border-right: 1px solid #7fffd4;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+.moon{
+    background-color: #7fffd4;
+    grid-area: 2/5/4/7;
+    border-radius: 50%;
+}
+.pot{
+ background-image: url(https://www.pngplay.com/wp-content/uploads/7/Angry-Groot-Transparent-Background.png);
+ background-repeat: no-repeat;
+ background-size:cover;
+ background-position: center;
+ grid-area: 5/ 1/ 12/ -6;
+}
+.curtain{
+    grid-area: 1/1/8/9;
+    display: grid;
+    grid-template-columns: repeat(50,1fr);
+    grid-template-rows: repeat(40, 1fr);
+}
+.curtain-1{
+    background-color: #6a5acd;
+    grid-area: 1/1/6/51;
+}
+.curtain-2{
+    background-color: #6a5acd;
+    grid-area: 7/1/8/51;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+.item{
+    background-color: #7fffd4;
+}
+.curtain-3{
+    background-color: #6a5acd;
+    grid-area: 9 /1/10/51;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+.curtain-4{
+    background-color: #6a5acd;
+    grid-area: 11 /1/12/51;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+.curtain-5{
+    background-color: #6a5acd;
+    grid-area: 13 /1/14/51;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+.curtain-6{
+    border-right: 2px solid #6a5acd;
+    grid-area: 1/2/25/2;
+}
+.curtain-7{
+    background-color: #6a5acd;
+    grid-area: 23/2/21/4;
+    border-radius: 50%;
+}
+
+
+.window-core__frame{
+    border: 1px solid #50449a;
+    background-color: #483d8b;
+    box-shadow: 1px 1px 10px white;
+    width: 110%;
+    height: 10%;
+    position: absolute;
+    top: 100%;
+    left: -5%;
+}
+.window-core__shelf{
+    border: 1px solid #50449a;
+    background-color: #483d8b;
+    box-shadow: 1px 1px 10px white;
+    width: 97%;
+    height: 3%;
+    position: absolute;
+    top: 110%;
+    left: 2%;
+}
