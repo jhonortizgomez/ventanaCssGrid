@@ -1,4 +1,4 @@
-# Tarjeta de presentación.
+# Ventana con vista a la luna.
 
 Este es un dibujo de una ventana con vista a la luna.
 
